@@ -1,4 +1,4 @@
-FROM ubuntu:1804
+FROM alpine
 
 RUN apk add --no-cache jq
 
