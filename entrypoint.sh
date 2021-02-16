@@ -15,4 +15,4 @@ done
 echo "---"
 echo "Event:"
 
-jq $INPUT_JQ_SELECCTOR $GITHUB_EVENT_PATH
+jq $INPUT_JQ_SELECTOR $GITHUB_EVENT_PATH
