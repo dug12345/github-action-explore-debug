@@ -1,4 +1,4 @@
-FROM alpine
+FROM ubuntu:latest
 
 RUN apk add --no-cache jq
 
