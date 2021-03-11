@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache jq
+RUN apk add --no-cache bash jq
 
 COPY entrypoint.sh /entrypoint.sh
 
