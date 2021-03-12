@@ -1,6 +1,6 @@
-FROM ubuntu:latest
+FROM alpine
 
-RUN apt-get -y update && apt-get install -y bash jq
+RUN apk add --no-cache jq bash
 
 COPY entrypoint.sh /entrypoint.sh
 
