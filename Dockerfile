@@ -1,6 +1,6 @@
-FROM alpine
+FROM ubuntu:latest
 
-RUN apk add bash jq
+RUN apt-get bash jq
 
 COPY entrypoint.sh /entrypoint.sh
 
